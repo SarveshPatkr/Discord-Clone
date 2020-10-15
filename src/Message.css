@@ -1,0 +1,27 @@
+.message{
+    display: flex;
+    padding: 5px;
+    padding-left: 25px;
+    align-items: center;
+    margin-top: 10px;
+}
+.message__info{
+    padding-left: 10px;
+    color: aliceblue;
+}
+.message__info > p{
+    font-weight: 500;
+    font-size: small;
+    color: rgb(196, 173, 235);
+}
+.message__info > h3{
+    font-weight: 500;
+    font-size: large;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.message__timestamp{
+    font-size: xx-small;
+    margin-left: 50px;
+    color: gray;
+}

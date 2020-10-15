@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+
+.login{
+    height: 100vh;
+    color: rgb(222, 214, 255);
+    background-color: rgb(93, 106, 224);
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    font-family: 'Work Sans', sans-serif;
+}
+.login >.login__text > img{
+    height: 200px;
+    align-items: center;
+    border-radius: 1000px;
+}
+.login__text{
+    text-align: center;
+    align-items: center;
+    cursor: default;
+
+}
+.login > .login__text > h2{
+    font-size: 80px;
+    text-align: center;
+}
+.author{
+    font-size: x-small;
+}
+.login> button{
+    background-color: rgb(242, 248, 255);
+    width: 200px;
+    font-weight: 800;
+}
+.login> button:hover{
+    background-color: rgb(91, 103, 214);
+    color: rgb(41, 41, 41);
+
+}

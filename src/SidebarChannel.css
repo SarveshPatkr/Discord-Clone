@@ -1,0 +1,24 @@
+/* .sidebar__channel{
+    margin-left: 20px;
+} */
+.sidebar__channel > h4{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: rgb(195, 218, 231);
+    padding: 5px;
+    border-bottom: 1px solid gray;
+
+
+    background-color: rgb(45, 46, 48);
+}
+.sidebar__channel:hover > h4{
+    color: rgb(172, 183, 194);
+    background-color: rgb(54, 62, 65);
+
+}
+.sidebarchannel__hash{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(99, 111, 128);
+}
