@@ -10,5 +10,8 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-#Screenshot
+# Screenshots
 ![discord](https://user-images.githubusercontent.com/54939371/96087609-c32f0080-0ee1-11eb-976a-f9b11a9cdfdd.jpg)
+### All rooms have their own password to enter
+![discord password](https://user-images.githubusercontent.com/54939371/96088035-73046e00-0ee2-11eb-9bee-90378e4fbde3.jpg)
+
