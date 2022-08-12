@@ -50,7 +50,7 @@ function Sidebar() {
                 <h3>Discord</h3>
                 <ExpandMoreIcon />
             </div>
-            <detail className="sidebar__channels">
+            <details className="sidebar__channels">
                 <summary className="sidebar__channelheader">
                     <div className="sidebar__header">
                         <ExpandMoreIcon />
@@ -64,7 +64,7 @@ function Sidebar() {
                     ))}
 
                 </div>
-            </detail>
+            </details>
             <div className="sidebar__voice">
                 <SignalCellularAltIcon className="sidebar__voiceicon" fontSize='large' />
                 <div className="sidebar__voiceinfo">
