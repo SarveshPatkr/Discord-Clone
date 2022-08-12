@@ -50,21 +50,21 @@ function Sidebar() {
                 <h3>Discord</h3>
                 <ExpandMoreIcon />
             </div>
-            <div className="sidebar__channels">
-                <div className="sidebar__channelheader">
+            <detail className="sidebar__channels">
+                <summary className="sidebar__channelheader">
                     <div className="sidebar__header">
                         <ExpandMoreIcon />
                         <h4>Text Channels</h4>
                     </div>
                     <AddIcon onClick={addChannel} className="sidebar__addchannel" />
-                </div>
+                </summary>
                 <div className="sidebar__channellist">
                     {channels.map(({ id, channel }) => (
                         <SidebarChannel key={id} pass={channel.pass} id={id} channelName={channel.channelName} />
                     ))}
 
                 </div>
-            </div>
+            </detail>
             <div className="sidebar__voice">
                 <SignalCellularAltIcon className="sidebar__voiceicon" fontSize='large' />
                 <div className="sidebar__voiceinfo">
